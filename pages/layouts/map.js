@@ -70,7 +70,7 @@ export default class Map extends Component {
 
   componentDidMount() {
     requestJson(
-      'http://34.222.243.90:3000/api/nasa/geo',
+      'http://54.212.87.20:3000/api/nasa/geo',
       (error, response) => {
         if (!error) {
           this._loadData(response);
